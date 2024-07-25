@@ -1,0 +1,202 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fffdfd;
+    color: #454645;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(135deg, #000000, #434343);
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.product ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav.product ul li {
+    margin-right: 20px;
+}
+
+nav.product ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav.product ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Main content section styles */
+main {
+    padding: 2rem;
+}
+
+main{
+    font-size: 20px;
+}
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-bottom: 5rem; 
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 20vh;
+}
+
+.profile {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.img {
+    flex-shrink: 0; 
+    position: relative;
+    height: 20vh;
+    width: 20vh;
+}
+
+img {
+    margin-bottom: 4rem;
+    border-radius: 10vh;
+    border: 2px solid #0f0f0f ;
+    object-fit: cover;
+    box-shadow: #f0ebeb white whitesmoke whitesmoke;
+}
+
+Video{
+    margin-top: 0.5rem;
+    width: 20vw;
+    height: 4vh;
+    margin-bottom: 0.5rem
+}
+
+.container1 {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.row {
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.summary {
+    flex: 1 1 60%; 
+    margin-right: 20px; 
+}
+
+.fronten {
+    display: flex; 
+    flex: 1 1 40%; 
+    justify-content: flex-start; 
+    gap: 20px;
+}
+
+.fronten img {
+    width: 20vh; 
+    height: 14vh; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+}
+
+.skills-container {
+    margin: 20px;
+}
+
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.skill1, .skill2, .skill3 {
+    flex: 1 1 300px; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid white;    
+}
+
+.skill1 h4, .skill2 h4, .skill3 h4 {
+    margin-top: 0;
+}
+
+.skill1 p, .skill2 p, .skill3 p {
+    margin-bottom: 0;
+}
+
+
+.profile, .summary, .skill, .project, .extra {
+    margin-bottom: 2rem;
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(135deg, #000000, #434343);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+/* Animation and filter styles */
+.skill p {
+    filter: brightness(90%);
+    transition: filter 0.3s ease;
+}
+
+/* Additional styles */
+.profile h3, .summary h3, .skill h3, .project h3, .extra h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill ul {
+    padding-left: 1.2rem;
+}
+
+.project ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.profile, .summary, .skill, .project, .extra {
+    animation: fadeIn 1s ease;
+}
+
+/* Responsive styles */
+
